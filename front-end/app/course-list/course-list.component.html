@@ -1,0 +1,8 @@
+<!-- src/app/course-list/course-list.component.html -->
+<div class="course-list-container">
+    <h2>Courses for {{ category }}</h2>
+    <div *ngFor="let course of filteredCourses" class="course-item">
+      <h3>{{ course.name }}</h3>
+      <p>Cost: {{ course.cost }}</p>
+    </div>
+  </div>

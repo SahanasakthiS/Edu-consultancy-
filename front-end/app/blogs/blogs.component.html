@@ -1,0 +1,9 @@
+<div class="blog-container">
+    <h1 class="page-title">Education Blogs</h1>
+    <div *ngFor="let blog of blogs" class="blog-card">
+        <h2 class="blog-title">{{ blog.title }}</h2>
+        <p class="blog-content">{{ blog.content }}</p>
+        <p class="blog-author">- {{ blog.author }}</p>
+        <p class="blog-date">{{ blog.date }}</p>
+    </div>
+</div>
